@@ -2,6 +2,7 @@ package com.example.jameer.calculatorapp;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -14,9 +15,9 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         if(savedInstanceState == null)
         {
-
+            Log.d("test","first time created");
         }else{
-
+            Log.d("test","recreated instance");
         }
     }
 
