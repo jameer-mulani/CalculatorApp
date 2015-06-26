@@ -17,7 +17,7 @@ public class MainActivity extends ActionBarActivity {
         {
             Log.d("test","first time created");
         }else{
-            Log.d("test","recreated instance"); 
+            Log.d("test","recreated instance");
         }
     }
 
